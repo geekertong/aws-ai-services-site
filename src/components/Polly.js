@@ -4,8 +4,8 @@ import Footer from '../utilities/footer';
 import ReactAudioPlayer from 'react-audio-player';
 import $ from 'jquery';
 var AWS = require('aws-sdk');
-AWS.config.region = 'us-east-1'; 
-AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: 'us-east-1:1956382a-b3f6-472c-9a8d-3a246853c917'});
+AWS.config.region = 'us-east-2'; 
+AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: 'us-west-2:c157cc92-d657-4a08-b4d3-3dffb9c3428e'});
 
 class Polly extends Component {
     constructor(props){
